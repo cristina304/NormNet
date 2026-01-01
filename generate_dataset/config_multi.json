@@ -1,0 +1,29 @@
+{
+    "*****Input Output Setup*****": "",
+    "object_names": ["apple", "banana", "Hex_nut", "trapezoidal_block", "wooden_cylinder"],
+    "obj_num" : 64,
+    "num" : 30,
+    "obj_dir": "/opt/data/private/code/NormNet/generate_dataset/models",
+    "unit_of_obj": "mm",
+    "output_dir": "/opt/data/private/data/dataset/realgrasp",
+    "number_of_instance_per_scene": [0, 40],
+    "*****Bullet Setup*****": "",
+    
+    "number_of_repeat": 50,
+    "box":{"length": 0.30,
+           "width":  0.40,
+           "height":  1.0,
+           "bottom_thickness": 0.05,
+           "position": [0, 0, 0]},
+    "random_range": [0.1, 0.1, 0.2, 0.5],
+    "show_GUI": 0,
+
+    "*****Blender Setup*****": "",
+    "resolution":[1280, 1024],
+    "focal_length":6.0,
+    "sensor_size":[6.784, 5.427],
+    "cam_location_x_y_z":[0, 0, 1.12],
+    "cam_rotation_qw_qx_qy_qz":[0, -0.70710678, -0.70710678, 0],
+    "depth_graph_divide":2.0,
+    "depth_graph_less":3.0
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Num16_60",
+  "resolutionX": 1280,
+  "resolutionY": 1024,
+  "fu": 1132.075,
+  "fv": 1132.117,
+  "cu": 640,
+  "cv": 512,
+  "clip_start": 0,
+  "clip_end": 2,
+  "max_val_in_depth": 65535.0,
+  "location": [0, 0, 1.12],
+  "rotation": [0, -0.70710678, -0.70710678, 0]
+}
